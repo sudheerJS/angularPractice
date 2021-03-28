@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
 })
 export class EmployeeComponent {
   employees: any[] = [
-    { code: "code1", name: "sudheer", gender: "male" },
-    { code: "code2", name: "Buddoda", gender: "female" }
+    // { code: "code1", name: "sudheer", gender: "male" },
+    // { code: "code2", name: "Buddoda", gender: "female" }
   ];
 }

@@ -14,5 +14,8 @@
       <td> {{ employee.name }} </td>
       <td> {{ employee.gender }} </td>
     </tr>
+    <tr *ngIf="!employees || employees.length==0" class="trDanger">
+      <td colspan='3'> NoData Found</td>
+    </tr>
   </tbody>
 </table>
