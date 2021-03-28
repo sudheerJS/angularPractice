@@ -1,0 +1,16 @@
+table {
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: large;
+  border-collapse: collapse;
+}
+td {
+  border: blueviolet 1px solid;
+  padding: 5px;
+  font-size: 20px;
+}
+
+tr {
+  border: blueviolet 1px solid;
+  padding: 5px;
+}
