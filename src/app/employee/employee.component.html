@@ -5,14 +5,16 @@
         Code</td>
       <td>Name</td>
       <td>Gender</td>
+      <td>DOB</td>
     </tr>
 
   </thead>
   <tbody>
     <tr *ngFor='let employee of employees'>
-      <td> {{ employee.code }} </td>
+      <td> {{ employee.code | uppercase }} </td>
       <td> {{ employee.name }} </td>
       <td> {{ employee.gender }} </td>
+      <td> {{ employee.dob | date:'dd/mm/yyyy' }} </td>
     </tr>
     <tr *ngIf="!employees || employees.length==0" class="trDanger">
       <td colspan='3'> NoData Found</td>
