@@ -2,7 +2,7 @@ import { Component, VERSION } from "@angular/core";
 
 @Component({
   selector: "my-app",
-  template: "<my-employee></my-employee>",
+  template: "<my-employee></my-employee><employee-count></employee-count>",
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
