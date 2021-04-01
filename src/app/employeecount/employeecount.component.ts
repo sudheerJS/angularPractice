@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 @Component({
   selector: "employee-count",
@@ -6,7 +6,10 @@ import { Component } from "@angular/core";
   styleUrls: ["./employeecount.component.css"]
 })
 export class EmployeeCountComponent {
-  all: number = 10;
-  male: number = 5;
-  female: number = 5;
+  @Input()
+  all: number;
+  @Input()
+  male: number;
+  @Input()
+  female: number;
 }
