@@ -12,4 +12,9 @@ export class EmployeeCountComponent {
   male: number;
   @Input()
   female: number;
+
+
+
+
+  
 }
